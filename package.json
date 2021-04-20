@@ -1,0 +1,22 @@
+{
+  "name": "front-backend-test",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "expect": "^1.20.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon --watch 'server-app/**/*.ts' --exec 'ts-node' server-app/server.ts"
+  },
+  "author": "rahuja"
+}
