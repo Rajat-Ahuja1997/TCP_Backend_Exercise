@@ -1,4 +1,4 @@
-All of my logic is under the server-app/ directory. This was a fun exercise!
+This is a backend coding mini-project I worked on using NodeJS and TypeScript implementing a TCP server
 
 My approach:
 
